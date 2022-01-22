@@ -5,8 +5,7 @@
     "build": "svelte-check && routify -b && vite build",
     "dev:vite": "vite --host",
     "serve": "vite preview",
-    "validate": "svelte-check",
-    "prepare": "husky install"
+    "validate": "svelte-check"
   },
   "devDependencies": {
     "@roxi/routify": "^2.15.1",
