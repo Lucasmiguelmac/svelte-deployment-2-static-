@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
-      - docker build -t $IMAGE_NAME:$TAG .
+      - docker build -t $IMAGE_NAME:$TAG -f Dockerfile.dev .
       - docker tag $IMAGE_NAME:$TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_NAME:$TAG      
   post_build:
     commands:
