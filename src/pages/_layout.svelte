@@ -5,7 +5,7 @@
 </script>
     <nav class="container-fluid">
       <ul>
-        <li><strong>Pruebita</strong></li>
+        <li><strong>Prueba</strong></li>
       </ul>
       <ul>
         <li><a class:secondary={!$isActive('./index')} href={$url('./index')}>Home</a></li>
